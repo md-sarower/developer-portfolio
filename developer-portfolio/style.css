@@ -8,8 +8,9 @@ body {
     background-repeat: no-repeat;
     display: flex;
 }
-h1 {
+.top-heading {
     font-size: 50px;
+    text-align: left;
 }
 .orange-color {
     color: orange;
@@ -54,4 +55,32 @@ h1 {
     padding: 8px 30px 8px 30px;
     font-weight: 700px;
     letter-spacing: 1px;
+}
+
+.third-section {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+h1 {
+    font-size: 40px;
+    text-align: center;
+}
+.flexible-container {
+    display: flex;
+}
+.ts-fc {
+    width: 40%;
+    padding: 50px;
+    box-shadow: 10px 10px 35px gray;
+    margin-left: 61px; 
+    border-radius: 15px;
+}
+#full-wd {
+    border-left: 7px solid orange;
+}
+#baby-wd {
+    border-left: 7px solid blue;
+}
+footer p {
+    text-align: center;
 }
